@@ -1,0 +1,64 @@
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\]
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : AnnotationController.java
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : AuthController.java
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : KafkaController.java
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : RedisController.java
+十一月 19, 2021 3:34:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : websocketController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : AnnotationController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : AnnotationController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : AuthController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : AuthController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : KafkaController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : KafkaController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : RedisController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : RedisController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : websocketController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : websocketController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\AnnotationController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\AnnotationController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\AuthController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\AuthController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\KafkaController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\KafkaController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\RedisController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\RedisController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\websocketController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : C:\Users\72335\Desktop\myself\project\java\demo\src\main\java\com\example\demo\controller\websocketController.java
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+十一月 19, 2021 3:34:34 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!

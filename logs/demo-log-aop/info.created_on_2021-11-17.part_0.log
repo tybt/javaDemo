@@ -1,0 +1,304 @@
+2021-11-17 10:09:26,124 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 17292 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 10:09:26,129 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 10:09:26,734 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:09:26,739 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 10:09:26,761 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-17 10:09:27,180 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8099 (http)
+2021-11-17 10:09:27,189 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-17 10:09:27,189 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 10:09:27,268 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-17 10:09:27,268 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1090 ms
+2021-11-17 10:09:27,874 [main] INFO  [o.s.b.a.web.servlet.WelcomePageHandlerMapping] WelcomePageHandlerMapping.java:53 - Adding welcome page: class path resource [static/index.html]
+2021-11-17 10:09:28,085 [main] INFO  [org.apache.kafka.clients.consumer.ConsumerConfig] AbstractConfig.java:361 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.offset.reset = earliest
+	bootstrap.servers = [192.168.109.1:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test2-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test2
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-11-17 10:09:28,144 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:119 - Kafka version: 2.7.1
+2021-11-17 10:09:28,145 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:120 - Kafka commitId: 61dbce85d0d41457
+2021-11-17 10:09:28,145 [main] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:121 - Kafka startTimeMs: 1637114968142
+2021-11-17 10:09:28,147 [main] INFO  [org.apache.kafka.clients.consumer.KafkaConsumer] KafkaConsumer.java:961 - [Consumer clientId=consumer-test2-1, groupId=test2] Subscribed to topic(s): hello2
+2021-11-17 10:09:28,160 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8099 (http) with context path ''
+2021-11-17 10:09:28,161 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Starting...
+2021-11-17 10:09:28,162 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3a5e2525]]
+2021-11-17 10:09:28,162 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Started.
+2021-11-17 10:09:28,183 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:61 - Started DemoApplication in 2.763 seconds (JVM running for 4.288)
+2021-11-17 10:09:30,346 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:30,346 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:32,505 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:32,505 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:34,641 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:34,642 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:36,906 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:36,906 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:39,350 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:39,350 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:42,160 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:42,160 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:45,015 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:45,015 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:48,156 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:48,157 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:51,276 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:51,276 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:54,231 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:54,231 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:09:57,487 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:09:57,488 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:00,446 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:00,447 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:03,370 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:03,371 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:06,383 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:06,384 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:09,454 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:09,454 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:12,463 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:12,464 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:15,494 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:15,494 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:18,429 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:18,430 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:21,555 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:21,555 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:24,765 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:24,766 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:27,733 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-11-17 10:10:28,004 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:28,004 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:31,022 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:31,023 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:34,042 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:34,042 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:37,000 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:37,000 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:40,062 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:40,063 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:43,247 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:43,248 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:46,353 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:46,353 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:49,459 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:49,459 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:52,618 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:52,618 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:55,630 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:782 - [Consumer clientId=consumer-test2-1, groupId=test2] Connection to node -1 (/192.168.109.1:9092) could not be established. Broker may not be available.
+2021-11-17 10:10:55,630 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  [org.apache.kafka.clients.NetworkClient] NetworkClient.java:1079 - [Consumer clientId=consumer-test2-1, groupId=test2] Bootstrap broker 192.168.109.1:9092 (id: -1 rack: null) disconnected
+2021-11-17 10:10:57,331 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopping...
+2021-11-17 10:10:57,332 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3a5e2525]]
+2021-11-17 10:10:57,332 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopped.
+2021-11-17 10:10:58,067 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.clients.consumer.KafkaConsumer] KafkaConsumer.java:1070 - [Consumer clientId=consumer-test2-1, groupId=test2] Unsubscribed all topics or patterns and assigned partitions
+2021-11-17 10:10:58,069 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.common.metrics.Metrics] Metrics.java:668 - Metrics scheduler closed
+2021-11-17 10:10:58,069 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.common.metrics.Metrics] Metrics.java:672 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2021-11-17 10:10:58,069 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.common.metrics.Metrics] Metrics.java:678 - Metrics reporters closed
+2021-11-17 10:10:58,073 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [org.apache.kafka.common.utils.AppInfoParser] AppInfoParser.java:83 - App info kafka.consumer for consumer-test2-1 unregistered
+2021-11-17 10:10:58,073 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  [o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer] LogAccessor.java:292 - test2: Consumer stopped
+2021-11-17 10:11:03,569 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 16108 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 10:11:03,573 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 10:11:04,121 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:11:04,124 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 10:11:04,146 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-17 10:11:04,551 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8099 (http)
+2021-11-17 10:11:04,560 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-17 10:11:04,561 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 10:11:04,642 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-17 10:11:04,642 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1025 ms
+2021-11-17 10:11:05,274 [main] INFO  [o.s.b.a.web.servlet.WelcomePageHandlerMapping] WelcomePageHandlerMapping.java:53 - Adding welcome page: class path resource [static/index.html]
+2021-11-17 10:11:05,460 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8099 (http) with context path ''
+2021-11-17 10:11:05,462 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Starting...
+2021-11-17 10:11:05,462 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@21dea711]]
+2021-11-17 10:11:05,463 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Started.
+2021-11-17 10:11:05,472 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:61 - Started DemoApplication in 2.53 seconds (JVM running for 4.053)
+2021-11-17 10:12:05,128 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-11-17 10:13:13,543 [http-nio-8099-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 10:13:13,544 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-17 10:13:13,544 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 0 ms
+2021-11-17 10:14:07,131 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopping...
+2021-11-17 10:14:07,132 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@21dea711]]
+2021-11-17 10:14:07,133 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopped.
+2021-11-17 10:14:13,756 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 20040 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 10:14:13,759 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 10:14:14,332 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 10:14:14,334 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 10:14:14,357 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-11-17 10:14:14,802 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8099 (http)
+2021-11-17 10:14:14,811 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-17 10:14:14,811 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 10:14:14,894 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-17 10:14:14,895 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1091 ms
+2021-11-17 10:14:15,515 [main] INFO  [o.s.b.a.web.servlet.WelcomePageHandlerMapping] WelcomePageHandlerMapping.java:53 - Adding welcome page: class path resource [static/index.html]
+2021-11-17 10:14:15,695 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8099 (http) with context path ''
+2021-11-17 10:14:15,697 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Starting...
+2021-11-17 10:14:15,697 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@19002b34]]
+2021-11-17 10:14:15,698 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Started.
+2021-11-17 10:14:15,707 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:61 - Started DemoApplication in 2.563 seconds (JVM running for 4.011)
+2021-11-17 10:14:19,697 [http-nio-8099-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 10:14:19,698 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-17 10:14:19,699 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 1 ms
+2021-11-17 10:14:19,730 [http-nio-8099-exec-1] INFO  [com.example.demo.controller.RedisController] RedisController.java:27 - woshinibaba
+2021-11-17 10:15:15,357 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-11-17 10:45:15,366 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2021-11-17 11:15:15,377 [MessageBroker-2] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+2021-11-17 11:45:15,378 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 3]
+2021-11-17 12:15:15,381 [MessageBroker-3] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 4]
+2021-11-17 12:45:15,392 [MessageBroker-2] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 6, active threads = 1, queued tasks = 0, completed tasks = 5]
+2021-11-17 13:15:15,397 [MessageBroker-2] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 7, active threads = 1, queued tasks = 0, completed tasks = 6]
+2021-11-17 13:45:13,860 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 7]
+2021-11-17 14:15:13,873 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 8]
+2021-11-17 14:45:13,876 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 9]
+2021-11-17 15:15:19,134 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 10]
+2021-11-17 15:45:19,135 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 11]
+2021-11-17 16:01:03,208 [http-nio-8099-exec-4] INFO  [com.example.demo.controller.RedisController] RedisController.java:27 - woshinibaba
+2021-11-17 16:15:19,142 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 12]
+2021-11-17 16:15:35,360 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopping...
+2021-11-17 16:15:35,361 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@19002b34]]
+2021-11-17 16:15:35,361 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopped.
+2021-11-17 16:15:46,165 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 8268 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 16:15:46,169 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 16:15:46,748 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 16:15:46,750 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 16:15:46,774 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-17 16:15:47,218 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8099 (http)
+2021-11-17 16:15:47,228 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-17 16:15:47,228 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 16:15:47,314 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-17 16:15:47,314 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1099 ms
+2021-11-17 16:15:47,937 [main] INFO  [o.s.b.a.web.servlet.WelcomePageHandlerMapping] WelcomePageHandlerMapping.java:53 - Adding welcome page: class path resource [static/index.html]
+2021-11-17 16:15:48,116 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8099 (http) with context path ''
+2021-11-17 16:15:48,118 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Starting...
+2021-11-17 16:15:48,118 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5844a2d1]]
+2021-11-17 16:15:48,119 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Started.
+2021-11-17 16:15:48,128 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:61 - Started DemoApplication in 2.588 seconds (JVM running for 4.097)
+2021-11-17 16:16:14,911 [http-nio-8099-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 16:16:14,911 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-17 16:16:14,912 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 0 ms
+2021-11-17 16:16:40,927 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopping...
+2021-11-17 16:16:40,928 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5844a2d1]]
+2021-11-17 16:16:40,928 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopped.
+2021-11-17 16:16:47,213 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 8312 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 16:16:47,218 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 16:16:47,847 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 16:16:47,849 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 16:16:47,874 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-17 16:16:48,304 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8099 (http)
+2021-11-17 16:16:48,313 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-17 16:16:48,313 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 16:16:48,396 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-17 16:16:48,397 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1130 ms
+2021-11-17 16:16:49,015 [main] INFO  [o.s.b.a.web.servlet.WelcomePageHandlerMapping] WelcomePageHandlerMapping.java:53 - Adding welcome page: class path resource [static/index.html]
+2021-11-17 16:16:49,198 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8099 (http) with context path ''
+2021-11-17 16:16:49,200 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Starting...
+2021-11-17 16:16:49,200 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@24e5389c]]
+2021-11-17 16:16:49,200 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Started.
+2021-11-17 16:16:49,210 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:61 - Started DemoApplication in 2.726 seconds (JVM running for 4.194)
+2021-11-17 16:16:55,088 [http-nio-8099-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 16:16:55,089 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-17 16:16:55,090 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 1 ms
+2021-11-17 16:17:27,243 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopping...
+2021-11-17 16:17:27,244 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@24e5389c]]
+2021-11-17 16:17:27,244 [SpringApplicationShutdownHook] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Stopped.
+2021-11-17 16:17:33,426 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 3916 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 16:17:33,430 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 16:17:34,062 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 16:17:34,064 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 16:17:34,088 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-11-17 16:17:34,372 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: testAnonations
+2021-11-17 16:17:34,380 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-17 16:24:10,239 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:55 - Starting DemoApplication using Java 1.8.0_301 on DESKTOP-UEGGTRC with PID 16876 (C:\Users\72335\Desktop\myself\project\java\demo\target\classes started by 72335 in C:\Users\72335\Desktop\myself\project\java\demo)
+2021-11-17 16:24:10,243 [main] INFO  [com.example.demo.DemoApplication] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-11-17 16:24:10,829 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-17 16:24:10,831 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-11-17 16:24:10,855 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-11-17 16:24:11,498 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8099 (http)
+2021-11-17 16:24:11,507 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-11-17 16:24:11,507 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-17 16:24:11,608 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-11-17 16:24:11,608 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 1317 ms
+2021-11-17 16:24:13,115 [main] INFO  [o.s.b.a.web.servlet.WelcomePageHandlerMapping] WelcomePageHandlerMapping.java:53 - Adding welcome page: class path resource [static/index.html]
+2021-11-17 16:24:13,543 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8099 (http) with context path ''
+2021-11-17 16:24:13,546 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Starting...
+2021-11-17 16:24:13,546 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@614361fa]]
+2021-11-17 16:24:13,546 [main] INFO  [o.s.m.simp.broker.SimpleBrokerMessageHandler] CompositeLog.java:137 - Started.
+2021-11-17 16:24:13,556 [main] INFO  [com.example.demo.DemoApplication] StartupInfoLogger.java:61 - Started DemoApplication in 3.984 seconds (JVM running for 5.441)
+2021-11-17 16:25:12,772 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2021-11-17 16:29:39,328 [http-nio-8099-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-17 16:29:39,329 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-11-17 16:29:39,329 [http-nio-8099-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 0 ms
+2021-11-17 16:55:12,776 [MessageBroker-1] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2021-11-17 17:25:12,780 [MessageBroker-2] INFO  [o.s.web.socket.config.WebSocketMessageBrokerStats] WebSocketMessageBrokerStats.java:128 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]

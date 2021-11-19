@@ -1,0 +1,47 @@
+2021-11-19 10:14:10,936 [http-nio-8099-exec-4] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:47 - The Token has expired on Thu Nov 18 17:28:52 CST 2021.
+2021-11-19 10:14:10,937 [http-nio-8099-exec-4] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:48 - token解码异常
+2021-11-19 11:35:24,599 [http-nio-8099-exec-2] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - The string '�"typ":"JWT","alg":"HS256"}' doesn't have a valid JSON format.
+2021-11-19 11:35:24,599 [http-nio-8099-exec-2] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:53 - token解码异常
+2021-11-19 11:38:18,583 [http-nio-8099-exec-5] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - The string '�"name":"wxq","id":"123","exp":1637293225,"iat":1637290633}' doesn't have a valid JSON format.
+2021-11-19 11:38:18,583 [http-nio-8099-exec-5] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:53 - token解码异常
+2021-11-19 11:46:09,073 [http-nio-8099-exec-1] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+2021-11-19 11:46:42,978 [http-nio-8099-exec-3] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 5.
+2021-11-19 11:46:53,052 [http-nio-8099-exec-4] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - com.auth0.jwt.exceptions.JWTDecodeException: The string 'ȝ\�������[Ȏ��̍M��' doesn't have a valid JSON format.
+2021-11-19 11:48:59,098 [http-nio-8099-exec-5] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256
+2021-11-19 15:31:05,702 [main] ERROR [org.springframework.boot.SpringApplication] SpringApplication.java:843 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'setConfig' defined in class path resource [com/example/demo/JApiDocs/JApiConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'setConfig' threw exception; nested exception is io.github.yedaxia.apidocs.exception.ConfigException: projectDir doesn't exists. null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:20)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [void]: Factory method 'setConfig' threw exception; nested exception is io.github.yedaxia.apidocs.exception.ConfigException: projectDir doesn't exists. null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: io.github.yedaxia.apidocs.exception.ConfigException: projectDir doesn't exists. null
+	at io.github.yedaxia.apidocs.DocContext.init(DocContext.java:36)
+	at io.github.yedaxia.apidocs.Docs.buildHtmlDocs(Docs.java:27)
+	at com.example.demo.JApiDocs.JApiConfig.setConfig(JApiConfig.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+2021-11-19 17:07:16,735 [http-nio-8099-exec-2] ERROR [com.example.demo.auth.JwtUtil] JwtUtil.java:52 - java.lang.NullPointerException
