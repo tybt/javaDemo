@@ -1,11 +1,11 @@
 package com.example.demo.controller;
 
-import com.auth0.jwt.interfaces.Claim;
+import com.example.demo.annotations.CheckLogin;
 import com.example.demo.auth.AuthUser;
 import com.example.demo.auth.JwtUtil;
+
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
@@ -22,9 +22,23 @@ public class AuthController {
 
 
     @GetMapping("/checkLogin")
-    public Boolean checkLogin(String token){
+
+    public Boolean checkLogin(String token) {
         return JwtUtil.verifyToken(token);
     }
+
+    @GetMapping("/logout")
+    public void logout(String token){
+         JwtUtil.logout(token);
+    }
+
+    @GetMapping("/isLogin")
+    @CheckLogin
+    public void isLogin( @RequestHeader(value="token") String headerStr){
+        System.out.println("哈哈哈测试而已");
+    }
+
+
 
 
 

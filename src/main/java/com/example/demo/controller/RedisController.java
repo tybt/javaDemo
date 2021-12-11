@@ -18,7 +18,7 @@ public class RedisController {
     @Resource
     private StringRedisTemplate stringRedisTemplate;
     @Resource
-    private RedisTemplate redisTemplate;
+    private RedisTemplate<String, User> redisTemplate;
 
 
 
@@ -37,7 +37,7 @@ public class RedisController {
     }
     @GetMapping("/getRedis")
     public String getRedis(){
-        User user=(User) redisTemplate.opsForValue().get("baba");
+        User user= redisTemplate.opsForValue().get("baba");
         assert user != null;
         System.out.println(user.getName());
         return  user.getId();

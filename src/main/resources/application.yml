@@ -23,16 +23,21 @@ spring:
     database: 1
     host: localhost
     port: 6379
-  swagger:
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: 723357436@qq.com
+    password: euqnxlvmrzuqbfaa
+    properties:
+      mail:
+        stmp:
+          ssl:
+            enable: true
 
-    enabled: true
-    title: spring-boot-demo
-    description: 这是一个简单的 Swagger API 演示
-    version: 1.0.0-SNAPSHOT
-    security:
-      # 是否启用 swagger 登录验证
-      filter-plugin: true
-      username: xkcoding
-      password: 123456
+
+test:
+  name: 123465
+
+
 
 
